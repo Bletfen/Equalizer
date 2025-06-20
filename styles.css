@@ -61,7 +61,7 @@ h1 {
   height: 60rem;
   border-radius: 12px;
   background: #191826;
-  background-image: url(/assets/bg-pattern-2.svg);
+  background-image: url(./assets/bg-pattern-2.svg);
   background-repeat: no-repeat;
   background-position: top 0 left 50%;
   position: relative;
@@ -193,8 +193,8 @@ footer {
 
 @media only screen and (min-width: 48rem) {
   body {
-    background-image: url(/assets/bg-main-tablet.png),
-      url(/assets/bg-pattern-1.svg);
+    background-image: url(./assets/bg-main-tablet.png),
+      url(./assets/bg-pattern-1.svg);
     background-repeat: no-repeat;
     background-position: top -30rem right -25rem, top -3rem right -5rem;
     margin-left: 4rem;
@@ -223,7 +223,7 @@ footer {
 
   .phone-wrapper {
     width: 69.6rem;
-    background-image: url(/assets/bg-pattern-2.svg);
+    background-image: url(./assets/bg-pattern-2.svg);
     background-repeat: no-repeat;
     background-position: top -35% left 55%;
   }
@@ -259,8 +259,8 @@ footer {
 
 @media only screen and (min-width: 90rem) {
   body {
-    background-image: url(/assets/bg-main-tablet.png),
-      url(/assets/bg-pattern-1.svg);
+    background-image: url(./assets/bg-main-tablet.png),
+      url(./assets/bg-pattern-1.svg);
     background-repeat: no-repeat;
     background-position: top -30rem right 15rem, top 0 right 0;
   }
