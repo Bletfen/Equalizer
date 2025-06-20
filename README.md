@@ -66,9 +66,8 @@ No build tools or frameworks are required — this is a pure HTML/CSS project.
 
 You can deploy it using GitHub Pages, Netlify, or Vercel.
 
-Example (if hosted):
+Example:
 🔗 Live Site
-📬 Contact
 
 
 © Equalizer 2021 — All rights reserved.
