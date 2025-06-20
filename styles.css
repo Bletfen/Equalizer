@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "IBM Plex Sans";
+  min-height: 100vh;
+  background-image: url(./assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top -30rem right -25rem;
+}
+
+header {
+  margin: 4rem 2.4rem 0;
+}
+
+main {
+  margin-top: 6.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  padding: 2.4rem;
+  color: #191826;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: -0.455px;
+}
+
+.description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  margin-top: 2rem;
+}
+
+/* Offer Section */
+
+.offer-section {
+  width: 100%;
+  margin-top: 16.6rem;
+  max-width: 60rem;
+  align-self: center;
+  position: relative;
+}
+
+.phone-wrapper {
+  height: 60rem;
+  border-radius: 12px;
+  background: #191826;
+  background-image: url(/assets/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-position: top 0 left 50%;
+  position: relative;
+}
+
+.phone-wrapper img {
+  width: 20.8rem;
+  height: 43rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -9.8rem;
+}
+
+/* Pricing Container */
+
+.pricing-container {
+  width: 100%;
+  background-color: #fa7453;
+  border-radius: 12px;
+  position: absolute;
+  top: 38rem;
+  padding: 4.8rem 3.6rem;
+  color: #fcfaf9;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.pricing-details {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  margin-top: 1.2rem;
+}
+
+.price {
+  margin-top: 4.5rem;
+}
+
+.price p {
+  font-size: 6.5rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+}
+
+.price p span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 3.2rem;
+  letter-spacing: -0.2px;
+  vertical-align: middle;
+  margin-left: 1.6rem;
+}
+
+.download-container {
+  margin-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.download-button {
+  padding: 1.5rem 0;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ios {
+  color: #fcfaf9;
+  background: #191826;
+}
+
+.android {
+  color: #191826;
+  background: #fcfaf9;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 39rem;
+  padding: 0 2.4rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  gap: 3.2rem;
+}
+
+.rights-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+
+.footer-desc {
+  width: 100%;
+  max-width: 32.7rem;
+  color: #191826;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
+
+.footer-desc span {
+  font-weight: 700;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+@media only screen and (min-width: 48rem) {
+  body {
+    background-image: url(/assets/bg-main-tablet.png),
+      url(/assets/bg-pattern-1.svg);
+    background-repeat: no-repeat;
+    background-position: top -30rem right -25rem, top -3rem right -5rem;
+    margin-left: 4rem;
+  }
+
+  h1 {
+    margin-top: 9.5rem;
+    font-size: 6.4rem;
+    max-width: 52rem;
+    line-height: 6.4rem;
+    letter-spacing: -0.727px;
+  }
+
+  .description {
+    max-width: 53rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-top: 2.8rem;
+  }
+
+  .offer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .phone-wrapper {
+    width: 69.6rem;
+    background-image: url(/assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: top -35% left 55%;
+  }
+
+  .phone-wrapper img {
+    left: 6.4rem;
+    transform: unset;
+    top: -13.8rem;
+    width: 27rem;
+    height: 55.6rem;
+  }
+
+  .pricing-container {
+    left: 19rem;
+    top: 15rem;
+    width: 40rem;
+    padding: 4.8rem;
+  }
+
+  footer {
+    margin-top: 18.2rem;
+    gap: 3.2rem;
+    margin-right: 4rem;
+  }
+
+  .rights-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 90rem) {
+  body {
+    background-image: url(/assets/bg-main-tablet.png),
+      url(/assets/bg-pattern-1.svg);
+    background-repeat: no-repeat;
+    background-position: top -30rem right 15rem, top 0 right 0;
+  }
+
+  header {
+    margin-left: 16.5rem;
+  }
+
+  .main-title {
+    margin-left: 14.1rem;
+  }
+
+  h1 {
+    max-width: 101.5rem;
+    font-size: 8.8rem;
+    line-height: 8.8rem;
+    letter-spacing: -1px;
+  }
+
+  .description {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    max-width: 82.5rem;
+  }
+
+  .phone-wrapper {
+    width: 111rem;
+    background-repeat: no-repeat;
+    background-position: top -50% left 40.2%;
+  }
+
+  .phone-wrapper img {
+    left: 11.8rem;
+    transform: unset;
+    top: -21.3rem;
+    width: 28rem;
+    height: 60.6rem;
+  }
+
+  .pricing-container {
+    padding: 5.8rem 5.9rem 4.8rem 5.4rem;
+    top: 9rem;
+    left: 50%;
+    width: 44.6rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+    line-height: 5.2rem;
+  }
+
+  .pricing-details {
+    font-size: 2rem;
+    line-height: 3.4rem;
+    margin-top: 2.2rem;
+    width: 33.3rem;
+  }
+
+  .download-container {
+    margin-top: 4.6rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16.6rem;
+    gap: 13.7rem;
+    margin-top: 20.2rem;
+  }
+
+  .social-container {
+    margin-right: 16.5rem;
+  }
+
+  .offer-section {
+    margin-top: 32.1rem;
+  }
+
+  .ios:hover {
+    background-color: #66e2dc;
+  }
+
+  .android:hover {
+    background-color: #ffb964;
+  }
+
+  .social-icon path {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .social-icon:hover path {
+    fill: rgba(250, 116, 83, 1);
+  }
+}
