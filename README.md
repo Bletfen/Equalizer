@@ -68,6 +68,7 @@ You can deploy it using GitHub Pages, Netlify, or Vercel.
 
 Example:
 🔗 Live Site
+https://bletfen.github.io/Equalizer/
 
 
 © Equalizer 2021 — All rights reserved.
